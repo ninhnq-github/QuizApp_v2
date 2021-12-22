@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="QuizAppV2:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>QuizAppV2</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="QuizAppV2-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="QuizAppV2:war exploded" />
+    </root>
+  </artifact>
+</component>
